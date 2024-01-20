@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!-- HTML INPUT TAGs  -->
+        <!-- Szöveges beviteli mező -->
+        <label for="">Add meg a neved:</label>
+        <input type="text" placeholder="xyz@gmail.com">
+
+        <!-- Checkbox -->
+        <p for="">Válassz alapanyogokat!</p>
+        <label for="eper">Eper</label>
+        <input type="checkbox" name="fruit" id="eper">
+        <label for="banan">Banán</label>
+        <input type="checkbox" name="fruit" id="banan">
+        <label for="kiwi">Kiwi</label>
+        <input type="checkbox" name="fruit" id="kiwi">
+
+        <!-- Radio button -->
+        <p>Mi a nemed?</p>
+        <label for="men">Férfi</label>
+        <input type="radio" value="" name="gender" id="men">
+        <label for="woman">Nő</label>
+        <input type="radio" value="" name="gender" id="woman">
+
+        <!-- Datepicker -->
+        <input type="date">
+
+        <!-- Select azaz lenyíló menük -->
+        <!-- multiple LISTA -->
+        <label for="street">Válassz utcát</label>
+        <select name="street" id="street">
+            <option value="bikas">Bikás park</option>
+            <option value="kalvin">Kálvin tér</option>
+            <option value="szent">Szent Gellért tér</option>
+        </select>
+
+        <!-- Gombok -->
+        <button>Kattints</button>
+
+        <!-- Textarea -->
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+
+        <!-- Fieldset + Legend -->
+        <fieldset>
+            <legend>Lakcím adatok</legend>
+            <label for="street2">Add meg az utcát:</label>
+            <input id="street2" type="text">
+            <input id="street2" type="color">
+        </fieldset>
+    </form>
+</body>
+
+</html>
